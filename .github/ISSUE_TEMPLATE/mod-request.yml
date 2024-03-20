@@ -1,0 +1,26 @@
+name: Mod request
+description: Suggest new mods to be added in our organization.
+title: "[IDEA]: "
+labels: ["mod-idea"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "A brief description of the mod you'd like to add."
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Links
+      description: Relevant link(s) to the original Minecraft mod.
+    validations:
+      required: true
+  - type: textarea
+    id: extrainformation
+    attributes:
+      label: Additional information
+      description: Any extra/relevant information about the mod, videos, etc..
+    validations:
+      required: false
